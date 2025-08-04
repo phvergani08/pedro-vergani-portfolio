@@ -1,3 +1,3 @@
-# pedro-vergani-portfolio
+# Pedro Vergani - Portfólio
 Meu Primeiro Portfolio.
 - Em andamento.
