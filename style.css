@@ -21,7 +21,14 @@ p {
 }
 
 header {
+    display: flex;
+}
+
+.navlist {
     background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
 
 .navlist ul {
