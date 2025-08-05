@@ -44,7 +44,6 @@ header {
 }
 
 .navitem a:hover {
-    font-weight: 600;
     text-decoration: underline;
 }
 
@@ -78,14 +77,76 @@ header {
 }
 
 #objetivo {
+    margin-bottom: 1px;
     background-color: rgb(40, 39, 39);
     display: flex;
     flex-direction: column;
     gap: 12px;
-    height: 50vh;
+    height: 60vh;
     padding: 40px;
 }
 .objetivo-titulo, .objetivo-texto {
     text-align: center;
-    padding: 12px;
+    padding-top: 40px;
+}
+
+#formacao {
+    margin-bottom: 1px;
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 60vh;
+    padding: 40px;
+}
+
+.formacao-titulo, .formacao-texto {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#cursos {
+    margin-bottom: 1px;
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 60vh;
+    padding: 40px;
+}
+
+.cursos-titulo {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#habilidades {
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height:60vh;
+    padding: 40px;
+}
+
+.habilidades-titulo, .habilidades-texto {
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer {
+    background-color: rgb(23, 22, 22);
+    height: 10vh;
+}
+
+.footer-container {
+    display: flex;
+    padding-top: 60px;
+    padding-left: 80px;
+} 
+
+.footer-container-power a {
+    text-decoration: none;
+    color: white;
+
 }
