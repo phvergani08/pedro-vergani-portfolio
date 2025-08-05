@@ -135,7 +135,7 @@ header {
 }
 
 footer {
-    background-color: rgb(23, 22, 22);
+    background-color: #221f1f;
     height: 10vh;
 }
 
@@ -143,10 +143,17 @@ footer {
     display: flex;
     padding-top: 60px;
     padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
 } 
 
 .footer-container-power a {
     text-decoration: none;
     color: white;
 
+}
+
+.footer-container-assets {
+    display: flex;
+    gap: 5px;
 }
