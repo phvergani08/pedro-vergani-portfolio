@@ -139,21 +139,29 @@ footer {
     height: 10vh;
 }
 
-.footer-container {
+.footer {
     display: flex;
-    padding-top: 60px;
     padding-left: 80px;
     padding-right: 80px;
+    padding: 30px 80px 0 80px;
     justify-content: space-between;
 } 
 
-.footer-container-power a {
-    text-decoration: none;
+
+.footer-container-power a, .footer-container-maillink {
     color: white;
 
+}
+
+.footer-container-power a {
+    text-decoration: none;
 }
 
 .footer-container-assets {
     display: flex;
     gap: 5px;
+}
+
+.footer-container-assets img:hover {
+    background-color: rgba(255, 255, 255, 0.038);
 }
