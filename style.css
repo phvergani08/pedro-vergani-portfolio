@@ -157,6 +157,10 @@ footer {
     text-decoration: none;
 }
 
+.footer-container-power a:hover {
+    text-decoration: underline;
+}
+
 .footer-container-assets {
     display: flex;
     gap: 5px;
