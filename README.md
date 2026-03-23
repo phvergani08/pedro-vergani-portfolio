@@ -1,3 +1,3 @@
 # Pedro Vergani - Portfólio
 Meu Primeiro Portfolio.
-- Em andamento.
+- https://phvergani08.github.io/pedro-vergani-portfolio/
